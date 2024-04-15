@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+main {
+    margin: 20px;
+}
+.event {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.event h2 {
+    margin-top: 0;
+}
+.event-info {
+    margin-bottom: 5px;
+}
+.event-info span {
+    font-weight: bold;
+}
+.event-buttons {
+    margin-top: 10px;
+}
+.event-buttons button {
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.event-buttons button:hover {
+    background-color: #ddd;
+}
